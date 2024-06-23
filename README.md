@@ -1,38 +1,51 @@
+## Developer Portfolio Landing Page Template
 
-# Analysis of riskiness of the well across the different states of India
-# Introduction:  
-As we know that world is facing huge crisis of water. There is scarcity of drinkable water. Beside that in India the reliability of water heavily depends upon the wells, ponds etc. This has triggered the crisis. The aim of this project is to analyse the dataset that I received form my Prof. A.B (ISI Kolkata) and analysis of missing features and a solution to impute the missing values and find the riskiness of well i.e. the wells which are more prone to scarcity. Before finding out the riskiness of the well, I have performed data preprocessing , ANOVA is perforfomed , Visualization, Imputataion , Trend Analysis these steps have been performed .
+### Introduction
 
-![image](https://user-images.githubusercontent.com/22790745/132808385-86c1c482-387a-466a-a63f-b468ac2a5e88.png)
+Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
 
-![Indian Map](https://user-images.githubusercontent.com/22790745/132087350-3e5269f9-fed2-410b-9c9d-ddf38582e5db.png)
+<img src="images/demo.gif?raw=true"/>
 
-# Dataset:
-The dataset is of csv format, pandas library helps to read the csv dataset. Beside that we import some bunch of library in order to future work.
-![Dataset](https://user-images.githubusercontent.com/22790745/132087281-326390bf-ef10-485c-870e-4483c37f0808.png)
+### Installation
 
+See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
+___
 
-# [ANOVA Analysis](https://www.kaggle.com/jurk06/one-way-anova-analysis) 
-It is perfomed in order to get that the significant difference between the independent variables and the featurs. Here I have performed One-way analysis as there is only one independent features we have.
+You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
-# [Visualization](https://www.kaggle.com/jurk06/indian-map#Well-depth-Analysis) 
-The main job here is to plotting the different wells on India map. Since latitute and logitude of all the wells are given in the dataset. I have done the plotting work in th notebook. Bisede that we can see the visualization of the other features as well.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
- **Missing Values-**  AS we can see that due to some reason we can see the missing value is in great number. So before analysis we need to impute those misssing values based on the distribution of the 
+### Markdown
 
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-# [Multiple Imputation](https://rabkumarisinghisikolkata.medium.com/visualization-and-multiple-imputation-734b9e73f2b2)
-Here I have mention the technique that will impute the missing value. You can read my blog here in order to understand the whole process behind the imputation and why I have taken this imputation as one of the best before procedding teh modelling .
+```markdown
+Syntax highlighted code block
 
-# [Trend Analysis](https://www.kaggle.com/jurk06/trends-analysis):
-Since I have performed the trend analysis as the year is mentioned and as per the year the depth of water table is mentioned. Since I have done the ananlysisn and find out how th eimputatiion works. Though I have mentioned on my blog and also mentiond the conclusion.
+# Header 1
+## Header 2
+### Header 3
 
+- Bulleted
+- List
 
-#  [Clustering](https://colab.research.google.com/drive/1qAO2AvGzeaz2ozA63z8BkLNZw1-mfiUF?usp=sharing) 
-![image](https://user-images.githubusercontent.com/22790745/132794271-830acbb9-bab7-4cb0-9ec1-7ce370396850.png)
+1. Numbered
+2. List
 
+**Bold** and _Italic_ and `Code` text
 
-After the imputation the main aim is to find the different cluister of the of all well with the given well depth. The cluster can be analysed with defferent range of well depth. The objective is to make sure or identify the well which have the more the depth. 
+[Link](url) and ![Image](src)
+```
 
-# [Clustering 2](https://colab.research.google.com/drive/1qAO2AvGzeaz2ozA63z8BkLNZw1-mfiUF?usp=sharing)
-THe work is done here . I have divided the work based on the refion or we can say that I have clustered based on the distance. I have performed the hirarchical clustering the divise method . For more about this cluster we can read it from the different book or kaggle.
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Roadmap
+
+See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
+___
+
+### References
+
+[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
+<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
+<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
