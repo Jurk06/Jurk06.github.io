@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio</title>
+  <title>Rabi Kumar Singh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
-      padding: 20px;
-      background-color: #e0f7fa; /* Light cyan background */
-    }
-
-    h1 {
-      color: #333; /* Dark gray heading */
-    }
-
-    p {
-      color: #555; /* Medium gray paragraph text */
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #333;
     }
 
     .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #fff; /* White container */
+      max-width: 900px;
+      margin: 20px auto;
+      background: #ffffff;
       padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    /* Add some color accents */
+    h1, h2, h3 {
+      color: #007bff;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
     a {
-      color: #007bff; /* Blue links */
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     .section-heading {
-      color: #333;
-      margin-bottom: 10px;
+      margin-top: 40px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      font-size: 1.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      background-color: #e0f7fa;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Rabi Kumar Singh, a Data Scientist working at MBB Labs Pvt Ltd. 
-       I'm excited to share my projects and experiences with you here.</p>
+    <h1>Rabi Kumar Singh</h1>
+    <p>Data Scientist at MBB Labs Pvt Ltd. Passionate about solving problems through data and machine learning.</p>
 
     <h2 class="section-heading">Projects</h2>
     <ul>
-      <li><a href="https://github.com/Jurk06/DSA100">100-Days DSA</a> LeetCode Question Practice. </li>
-      <li><a href="https://huggingface.co/spaces/Jurk06/Sentiment-Analysis">Web App: Sentiment Analysis</a> - A web app developed for sentiment analysis using machine learning models.</li>
-      <li><a href="https://huggingface.co/spaces/Jurk06/House-Price-Using-Deep-Learning?logs=container">Web App: House Price Prediction</a> - A web app developed for predicting house prices using deep learning models.</li>
       <li><a href="https://github.com/Jurk06/project-at-isi">Dissertation: Project at ISI Kolkata</a> - Analyzing well data to assess water scarcity risk.</li>
+      <li><a href="https://github.com/Jurk06/DSA100" target="_blank">100-Days DSA</a> - LeetCode Question Practice.</li>
+      <li><a href="https://huggingface.co/spaces/Jurk06/Sentiment-Analysis" target="_blank">Web App: Sentiment Analysis</a> - Developed for analyzing sentiments using ML models.</li>
+      <li><a href="https://huggingface.co/spaces/Jurk06/House-Price-Using-Deep-Learning?logs=container" target="_blank">Web App: House Price Prediction</a> - Predicting house prices using deep learning.</li>
     </ul>
 
     <h2 class="section-heading">Skills</h2>
     <ul>
-      <li>Programming Languages: Python, JavaScript, Java, SQL</li>
-      <li>Technologies: React, Node.js, HTML, CSS, BigQuery, Oracle</li>
-      <li>Tools: Git, Docker, AWS, TensorFlow, PyTorch, SAS, PySpark, Hypothesis Testing, Hadoop, Pipeline</li>
-      <li>Concepts: Deep Learning, A/B Testing, Pandas, Machine Learning, SageMaker, RNN (LSTM), SHAP, XgBoost, Scikit-Learn, Statistical Modeling, Clustering</li>
-      <li>Deployment: AWS, Git-Github</li>
+      <li><strong>Programming:</strong> Python, JavaScript, SQL</li>
+      <li><strong>Technologies:</strong> React, Node.js, TensorFlow</li>
+      <li><strong>Concepts:</strong> Machine Learning, Deep Learning</li>
+      <li><strong>Tools</strong>: Git, Docker, AWS, TensorFlow, PyTorch, SAS, PySpark, Hypothesis Testing, Hadoop, Pipeline</li>
+      <li><strong>Concepts</strong>: Deep Learning, A/B Testing, Pandas, Machine Learning, SageMaker, RNN (LSTM), SHAP, XgBoost, Scikit-Learn, Statistical Modeling, Clustering</li>
+      <li><strong>Deployment</strong>: AWS, Git-Github</li>
     </ul>
 
     <h2 class="section-heading">Experience</h2>
@@ -115,16 +140,8 @@
 
     <h2 class="section-heading">Education</h2>
     <ul>
-      <li><strong>Indian Statistical Institute - Kolkata</strong>, Kolkata, IN
-        <ul>
-          <li>M.Tech in QROR, Grade- 1st class with Honors.</li>
-        </ul>
-      </li>
-      <li><strong>Jadavpur University</strong>, Kolkata, IN
-        <ul>
-          <li>Bachelor of Engineering</li>
-        </ul>
-      </li>
+      <li><strong>Indian Statistical Institute, Kolkata</strong> - M.Tech in QROR</li>
+      <li><strong>Jadavpur University</strong> - Bachelor of Engineering</li>
     </ul>
 
     <h2 class="section-heading">Awards</h2>
@@ -149,11 +166,12 @@
     <h2 class="section-heading">Contact</h2>
     <p>
       <a href="mailto:ju.singh.rabi@gmail.com">Email</a> | 
-      <a href="https://www.linkedin.com/in/rabi-kumar-singh-314326121/">LinkedIn</a> | 
-      <a href="https://github.com/Jurk06/">GitHub</a> | 
-      <a href="https://www.kaggle.com/jurk06">Kaggle</a> | 
-      <a href="https://medium.com/@ju.rabikumarsingh">Medium</a> |
-      <a href="https://www.linkedin.com/in/rabi-kumar-singh/details/certifications/">Certifications</a>
+      <a href="https://www.linkedin.com/in/rabi-kumar-singh-314326121/">LinkedIn</a>
     </p>
+  </div>
 
-    <h2
+  <div class="footer">
+    <p>&copy; 2025 Rabi Kumar Singh. All rights reserved.</p>
+  </div>
+</body>
+</html>
